@@ -446,7 +446,7 @@ a {
     margin-top: 38px;
 }
 
-/************* Features *************/
+/************* MemBer *************/
 .member {
     padding: 85px 0;
 }
@@ -536,4 +536,67 @@ a {
 }
 .member-control__next-icon {
     rotate: 180deg;
+}
+
+/************* Install *************/
+.install {
+    padding: 85px 0;
+}
+
+.install-inner {
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    background: #2e80ce;
+    padding: 0 70px;
+    column-gap: 160px;
+}
+
+.install-inner__img {
+    display: block;
+    width: 284px;
+    height: 522px;
+    flex-shrink: 0;
+    object-fit: cover;
+    margin-top: -95px;
+}
+
+.install-inner__content {
+    width: 50.08%;
+}
+
+.section-heading--white {
+    max-width: 489px;
+    color: #fff;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: -1px;
+}
+
+.section-desc--white {
+    max-width: 586px;
+    color: #fff;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 166.667%;
+}
+
+.install-inter__row {
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.install-inner__btn {
+    border-radius: 5px;
+    background: #2e80ce;
+    border: 1px solid #2e80ce;
+}
+
+.install-inner__btn:hover {
+    opacity: 0.9;
 }
