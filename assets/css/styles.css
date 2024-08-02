@@ -540,7 +540,7 @@ a {
 
 /************* Install *************/
 .install {
-    padding: 85px 0;
+    padding: 180px 0 85px 0;
 }
 
 .install-inner {
@@ -599,4 +599,126 @@ a {
 
 .install-inner__btn:hover {
     opacity: 0.9;
+}
+
+/************* News *************/
+.news {
+    padding: 85px 0;
+}
+
+.news-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 130px;
+}
+.news__content {
+    flex-shrink: 0;
+}
+.news__heading {
+    max-width: 470px;
+}
+.news__more {
+    display: inline-block;
+    margin-top: 28px;
+    color: #10375c;
+    font-family: Inter;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 155.556%;
+    text-decoration-line: underline;
+    text-underline-offset: 4px;
+}
+
+.news-control {
+    margin-top: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 18px;
+}
+
+.news-control__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+    border-radius: 36px;
+    border: 1.5px solid#575f66;
+    outline: none;
+    color: #575f66;
+    background-color: #fff;
+    transition: 0.25s;
+}
+
+.news-control__btn:hover {
+    color: #fff;
+    background-color: #2e80ce;
+    border-color: #2e80ce;
+}
+.news-control__next-icon {
+    rotate: 180deg;
+}
+
+.news__list {
+    max-width: 570px;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.news-item {
+    flex: 1;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.news-item__thumb {
+    display: block;
+    width: 100%;
+    height: 172px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.news-item__body {
+    padding: 22px;
+    border: 1px solid #e8ebee;
+    background: #fff;
+    border-top: none;
+    border-radius: 0 0 12px 12px;
+}
+
+.news-item__heading {
+    color: #10375c;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 162.5%;
+}
+
+.news-item__desc {
+    margin-top: 10px;
+    color: #575f66;
+    font-family: Sora;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 171.429%;
+}
+
+.news-item__more {
+    display: inline-block;
+    margin-top: 12px;
+    color: #2e80ce;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.news-item__more:hover {
+    text-decoration: underline;
 }
